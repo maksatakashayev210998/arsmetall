@@ -1,0 +1,700 @@
+@font-face {
+    font-family: "robot"; 
+    src: url("../fonts/3966.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "metropolis"; 
+    src: url("../fonts/Metropolis-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+.telnumcall{
+	transition:0.3s all;
+	text-decoration:none!important; color:#fff;
+}
+.telnumcall:hover{
+	text-shadow: 0px 1px 10px #fff;
+	color:#fff;
+	text-decoration:none!important;
+}
+.whp1 {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    z-index: 10000000;
+	width:70px;
+	height:70px;
+}
+body{
+    font-family: robot;
+}
+.skach:hover,.skach2:hover{
+	text-decoration:none;
+	color:#233652;
+	transition:0.3s all;
+}
+.send:hover{
+	background:#b31919;
+}
+.showall:hover{
+	color:#fff;
+    background:#b73131;
+}
+.send{
+	display:block;
+	height: 35px;
+	background: red;
+	color:#fff;
+	font-size:14px;
+	padding:0px 15px;
+	border:none;
+	outline:none;
+	transition:0.3s all;
+}
+.block1{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: url(/images/back1.png)no-repeat top/cover;
+    padding: 210px 0px;
+    border-bottom:3px solid red;
+}
+.header{
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+}
+.logo{
+    display: block;
+    height: 70px;
+    float: left;
+}
+.menuit{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#233652;
+    padding: 15px;
+}
+.menus{
+    display: block;
+    float: right;
+    padding-top: 10px;
+}
+.clear {
+    clear:both;
+}
+.vect1{
+    display: block;
+    float: left;
+    height:318px;
+}
+.vect1txt{
+    display: block;
+    float: left;
+    padding-left: 40px;
+    padding-top: 50px;
+    width: calc(100% - 318px);
+}
+.vct1txt{
+    display: block;
+    color:#fff;
+    text-transform: uppercase;
+    font-size:60px;
+    font-weight: bold;
+    font-family: metropolis;
+}
+.vct2txt{
+    display: block;
+    color:#fff;
+    font-size:48px;
+    font-family: robot;
+}
+.adresses{
+    display: block;
+    width: 100%;
+}
+.adrtxt{
+    display: block;
+    font-size:24px;
+    color:#fff;
+    margin-top:120px;
+}
+.halfs{
+    color:#fff;
+}
+.part{
+    display: block;
+    width: 100%;
+}
+.halfs{
+    display: block;
+    width: 50%;
+    float:left;
+    font-size:24px;
+    color:#fff;
+}
+.nums{
+    color:#fff;
+    margin-left: 20px;
+}
+.comp1 {
+    display: block;
+    float: left;
+    height: 212px;
+    position: relative;
+    z-index: 100;
+}
+.goldline {
+    display: block;
+    float: left;
+    height: 80px;
+    width: 950px;
+    background: #fff;
+    margin-top: 65px;
+    margin-left: -65px;
+    padding-top: 29px;
+}
+.troubexec{
+    display: block;
+    width: 1110px;
+    margin: 0 auto;
+}
+.skach{
+    display: block;
+    color:#000;
+    font-weight: bold;
+    font-size: 18px;
+    float:left;
+    margin-left: 80px;
+}
+.skach2{
+	display: block;
+	color:#000;
+	font-weight: bold;
+	font-size: 18px;
+	float:right;
+	margin-right:15px;
+}
+.data{
+    display: block;
+    font-size:16px;
+    color:#fff;
+    float:left;
+    margin:5px 0px 0px 25px;
+}
+.exdownload{
+    display: block;
+}
+.block2{
+    display: block;
+    background: #fff;
+    padding: 176px 0px 0px;
+    border-bottom:3px solid red;
+}
+::-webkit-scrollbar {
+    width: 3px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #fff;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #D82626;
+}
+.blc2txt{
+    display: block;
+    color:#000;
+    font-family: robot;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mats{
+    display: block;
+    width: 265px;
+    height: 465px;
+    background: #fff;
+    float: left;
+    margin: 0px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.imgmat{
+    display: block;
+    width: 100%;
+}
+.catalog{
+    display: block;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    width: 1140px;
+    height:500px;
+}
+.catalog_slider{
+    display: block;
+    height: 100%;
+    width: 5985px;
+    transition: 0.3s all;
+}
+.sliderblock{
+    display: block;
+    margin: 60px -60px 0px;
+}
+.arrowleft{
+    display: block;
+    float: left;
+    margin-top:200px;
+    cursor: pointer;
+    transition:0.3s all;
+}
+.arrowleft:hover{
+    margin-left:-10px;
+    margin-right:10px;
+}
+.arrowright{
+    display: block;
+    float: left;
+    transform: rotate(180deg);
+    margin-top:200px;
+    cursor: pointer;
+    transition:0.3s all;
+}
+.arrowright:hover{
+    margin-right:-10px;
+    margin-left:10px;
+}
+.line{
+    display: block;
+    height: 3px;
+    width: 70%;
+    background: #BBA677;
+    margin:20px auto;
+}
+.matname{
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #233652;
+    text-align: center;
+}
+.mattxt{
+    display:block;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+.textts{
+    display: block;
+    padding: 0px 10px;
+}
+.showall{
+    display: block;
+    padding: 0px 20px;
+    height: 61px;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: red;
+    margin:70px auto 170px;
+    width: 350px;
+    transition:0.3s all;
+}
+.block3{
+    display: block;
+    background: #fff;
+    border-bottom:3px solid red;
+}
+.blo3png{
+    display: block;
+    height: 806px;
+    float: left;
+}
+.blo3div {
+    display: block;
+    float: left;
+    padding: 197px 300px 0px 90px;
+    width: calc(100% - 763px);
+}
+.blo3tt{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #233652;
+    margin-top:0px;
+}
+.onastxt{
+    display: block;
+    margin:20px 0px 0px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #233652;
+}
+.countblock {
+    display: block;
+    background: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 60px;
+    border: 1px solid red;
+}
+.counts {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid red;
+    padding: 25px 0px;
+}
+.number{
+    display: block;
+    margin-top:0px;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: red;
+}
+.numbertxt{
+    display: block;
+    margin:10px 0px 0px;
+    font-size: 20px;
+    color: #000;
+}
+.block4{
+    display: block;
+    background: url(/images/block4.png)no-repeat top/cover;
+    padding: 170px 0px;
+    border-bottom:3px solid red;
+}
+a{
+    cursor: pointer;
+}
+.block4tt1{
+    display: block;
+    margin:0px 0px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #233652;
+    text-align: center;
+}
+.galochka {
+    display: block;
+    float: left;
+    margin: 40px 20px;
+}
+.gordyblock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+}
+.galochkatxt {
+    display: block;
+    float: left;
+    margin-left: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #233652;
+    width: 66%;
+    margin: 25px 0px;
+}
+.galas{
+    display: block;
+    width: 33%;
+    background: #fff;
+}
+.mt40{
+    display: block;
+    margin-top:40px;
+}
+.blocks4pr2{
+    display: block;
+    margin-top:150px;
+}
+.whyus{
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    background: #fff;
+    padding:30px;
+}
+.walls{
+    display: block;
+    height: 100px;
+    margin:0 auto;
+}
+.walltt{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #233652;
+    text-align: center;
+    margin-top: 20px;
+}
+.walltxt{
+    display: block;
+    font-size: 18px;
+    color: #233652;
+    text-align: center;
+    margin:10px 0px 0px;
+}
+.block5{
+    display: block;
+    padding: 100px 0px;
+    background: #fff;
+    border-bottom:3px solid red;
+}
+.blo5tt{
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #233652;
+    margin-top:0px;
+    margin-bottom: 20px;
+}
+.labelsuser{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #233652;
+}
+.formmap{
+    display: block;
+    width: 570px;
+    padding: 40px;
+    border: 1px solid red;
+    float: left;
+}
+.realmap{
+    display: block;
+    float: right;
+    width: calc(100% - 600px);
+    border: 1px solid red;
+}
+.frm12{
+    display: block;
+    width: 100%;
+    margin-bottom:20px;
+}
+.fr22{
+    display: block;
+    float: left;
+    width: 150px;
+}
+.fr23{
+    display: block;
+    float: right;
+    width: calc(100% - 150px);
+}
+.forminp{
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+    height:40px;
+    padding-left: 15px;
+    font-size:14px;
+    color:#233652;
+    outline: none;
+}
+.formtarea{
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+    height:130px;
+    padding-left: 15px;
+    font-size:14px;
+    color:#233652;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 130px;
+    min-height: 40px;
+    outline: none;
+}
+.contadrna{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #233652;
+}
+.adrsss{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.adrstscl{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #233652;
+}
+.adrtelads{
+    font-size:24px;
+    color: #233652;
+    margin-left: 20px;
+}
+.ml0{
+    margin-left: 0px!important;
+}
+.txtalrght{
+    text-align: right;
+}
+.contaddress{
+    display: block;
+    width: 870px;
+    margin: 40px auto 0px;
+}
+.footer{
+    display: block;
+    background: #D82626;
+    padding:25px;
+}
+.nums{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    color:#fff;
+}
+.footadr{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#fff;
+}
+.fottrght{
+    display: block;
+    float: right;
+}
+.fottrght .nums{
+    display: block;
+    float: right;
+    margin-right: 50px;
+    line-height: 24px;
+	font-size:16px;
+}
+.footadr{
+    display: block;
+    float: left;
+    line-height: 24px;
+}
+.allprod{
+    display: none;
+    margin-top:60px;
+}
+.allprod .mats{
+    margin-bottom:20px;
+}
+.redline{
+    display: block;
+    /*background: #ff000091;*/
+    background: rgba(217, 15, 15, 0.79);
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+.redtt{
+    display: block;
+    font-size:72px;
+    color:#fff;
+    font-family: 'robot';
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.redtt2{
+    display: block;
+    font-size:24px;
+    text-transform: uppercase;
+    color:#fff;
+    font-family: 'robot';
+}
+.redright{
+    display: block;
+    width: 50%;
+    float:left;
+}
+.redaddress{
+    display: block;
+    font-family: 'robot';
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.redphones{
+    display: block;
+    font-family: 'robot';
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.redrgpart1{
+    display: block;
+    float: left;
+}
+.redrgpart2{
+    display: block;
+    float: right;
+}
+.bordrgwh{
+    border-right: 1px solid #fff;
+}
+.paddleft{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.redliniya{
+    display: block;
+    background: red;
+    width: 400px;
+    height: 3px;
+    margin:20px auto;
+}
+.block4redline{
+    display: block;
+    width: 268px;
+    height: 3px;
+    background: red;
+    margin: 20px 0px;
+}
+.maps{
+    display: block;
+    margin-top: 60px;
+}
+.foottext{
+    display: block;
+    font-size: 18px;
+    font-family: 'robot';
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+}
