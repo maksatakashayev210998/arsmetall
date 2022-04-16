@@ -67,6 +67,7 @@ body{
     width: 100%;
     background: #fff;
     padding: 15px;
+    border-bottom: 2px solid red;
 }
 .logo{
     display: block;
@@ -228,10 +229,12 @@ body{
     float: left;
     margin: 0px 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s all;
 }
 .imgmat{
     display: block;
-    width: 100%;
+    height: 150px;
+    margin: 10px auto 0px;
 }
 .catalog{
     display: block;
@@ -294,6 +297,10 @@ body{
     font-weight: 300;
     font-size: 16px;
     text-align: center;
+    color:#502828;
+}
+.mats:hover {
+    box-shadow: 0px 0px 10px 4px #5537977a;
 }
 .textts{
     display: block;
@@ -328,7 +335,7 @@ body{
 .blo3div {
     display: block;
     float: left;
-    padding: 197px 300px 0px 90px;
+    padding: 150px 300px 0px 90px;
     width: calc(100% - 763px);
 }
 .blo3tt{
@@ -492,6 +499,7 @@ a{
     padding: 40px;
     border: 1px solid red;
     float: left;
+    background: #fff;
 }
 .realmap{
     display: block;
@@ -529,7 +537,7 @@ a{
     width: 100%;
     border: 1px solid red;
     height:130px;
-    padding-left: 15px;
+    padding: 15px;
     font-size:14px;
     color:#233652;
     max-width: 100%;
@@ -697,4 +705,190 @@ a{
     font-weight: bold;
     color:#fff;
     text-align: center;
+}
+.allprod{
+    display: none;
+    margin-top:60px;
+}
+.allprod .mats{
+    margin-bottom:20px;
+}
+.productsb{
+    display: block;
+}
+.authblock{
+    display: block;
+    width: 520px;
+    padding: 30px 50px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 6px;
+    max-width: 100%;
+}
+.authinput{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: robot;
+    margin: 0px 0px 20px;
+    padding-left: 15px;
+    border:1px solid #0f1e32;
+    border-radius: 6px;
+    outline: none;
+}
+.authbtn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #233652;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    transition: 0.3s all;
+}
+.authbtn:hover{
+    background: #BBA677;
+    color:#fff;
+}
+.authtt{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+.error{
+    display: block;
+    font-size: 14px;
+    margin: 0px 0px 20px;
+    color:red;
+    text-align: center;
+}
+.addprod{
+    display: block;
+    width: 50%;
+}
+.addprodinpfile{
+    display: block;
+    margin: 0px 0px 20px;
+    color:#502828;
+}
+.addprodinp{
+    display: block;
+    width: 100%;
+    margin: 0px 0px 20px;
+    height: 50px;
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;
+}
+.addprodarea{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+}
+.addprod label{
+    color:#fff;
+    margin: 0px 0px 10px;
+}
+.blo5tt2{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #502828;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.savebtnpro{
+    display: block;
+    padding: 0px 20px;
+    height: 61px;
+    border: 1.5px solid #502828;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #502828;
+    background: none;
+    margin: 20px 0px 0px;
+    width: 200px;
+    transition: 0.3s all;
+}
+.savebtnpro:hover{
+    background: #502828;
+    color:#fff;
+}
+.successblock{
+    display: block;
+    width: 100%;
+    background: rgb(14, 253, 14);
+    padding: 30px;
+    border-radius: 6px;
+    margin: 0px 0px 30px;
+}
+.successtxt{
+    display: block;
+    font-size: 16px;
+    color:green;
+    margin: 0;
+}
+.prodshow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+}
+.prodlfs{
+    display: block;
+    width: 40%;
+}
+.prodrgs{
+    display: block;
+    width: 60%;
+    padding-left: 30px;
+}
+.prdshimg{
+    display: block;
+    width: 100%;
+}
+.prodnmt{
+    display: block;
+    color: #502828;
+    font-family: robot;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px;
+}
+.proddesc{
+    display: block;
+    font-size: 18px;
+    color:#502828;
+    text-align: justify;
+    font-family: robot;
+}
+.tbtbt{
+    display: block;
+    width: 100%;
+    overflow: auto;
 }

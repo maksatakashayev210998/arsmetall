@@ -1,12 +1,10 @@
 <?php
-$to      = 'maksatakashayev@gmail.com';
-$subject = 'the subject';
-$message = 'hello';
-$headers = array(
-    'From' => 'asarstroykz@mail.com',
-    'Reply-To' => 'maksatakashayev@gmail.com',
-    'X-Mailer' => 'PHP/' . phpversion()
-);
+$text = 'Есімім%20'.$_POST['username'].'!%20';
+$message = $_POST['message'];
+$message = str_replace(" ", "%20", $message);
+$message = str_replace(PHP_EOL, '%20', $message);
 
-mail($to, $subject, $message, $headers);
+$url = 'https://wa.me/77471517106?text='.$text.$message;
+
+header('Location: '.$url);
 ?>
