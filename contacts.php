@@ -18,15 +18,6 @@
 					</div>
 					<div class="frm12">
 						<div class="fr22">
-							<label for="" class="labelsuser">E-mail</label>
-						</div>
-						<div class="fr23">
-							<input class="forminp" type="text" name="email" placeholder="E-mail">
-						</div>
-						<div class="clear"></div>
-					</div>
-					<div class="frm12">
-						<div class="fr22">
 							<label for="" class="labelsuser">Телефон:</label>
 						</div>
 						<div class="fr23">
