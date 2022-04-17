@@ -202,6 +202,23 @@
 		padding:60px 0px 140px;
 	}
 }
+@media(max-width: 991px){
+	.logo{
+		height: 55px;
+	}
+	.addprod{
+		width: 100%;
+	}
+	.prodnmt{
+		font-size: 28px;
+	}
+	.proddesc{
+		font-size: 14px;
+	}
+	.block2{
+		padding: 50px 0px!important;
+	}
+}
 @media(max-width: 768px){
 	.blo3div, .blo3png{
 		width: 100%;
@@ -317,6 +334,18 @@
 	.redrgpart1, .redrgpart2{
 		float:none;
 		width:100%;
+	}
+	.prodlfs{
+		width: 100%;
+	}
+	.prodrgs {
+		width: 100%;
+		padding-left: 0;
+	}
+	.prdshimg{
+		width: 360px;
+		margin:0px auto 40px;
+		max-width: 100%;
 	}
 }
 @media(max-width: 576px){
