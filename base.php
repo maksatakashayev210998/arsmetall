@@ -4,10 +4,10 @@
 // $password = "root";
 // $dbname = "arsmetall";
 
-$servername = "srv-pleskdb53.ps.kz:3306";
-$username = "asarstr2_metall";
-$password = "3Yw14#uy";
-$dbname = "asarstr2_metall";
+$servername = "localhost:3306";
+$username = "asarstr3_metall";
+$password = "Kba1v00&0";
+$dbname = "asarstr3_metall";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

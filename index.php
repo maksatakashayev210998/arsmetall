@@ -16,7 +16,7 @@ $result3 = $conn->query($sql);
 			</div>
 			<div class="redright paddleft">
 				<div class="redrgpart1">
-					<h4 class="redaddress">Алматинская область, Талдыкорган<br>Ул. Медео 37/1</h4>
+					<h4 class="redaddress">Жетысуская область, Талдыкорган<br>Ул. Медео 37/1</h4>
 				</div>
 				<div class="redrgpart2">
 					<h4 class="redphones">
