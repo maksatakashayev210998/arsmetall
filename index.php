@@ -271,7 +271,7 @@ $result3 = $conn->query($sql);
 				</form>
 			</div>
 			<div class="realmap">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.3830492983147!2d78.38391030575933!3d44.993866655519255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x427f0034a04665c7%3A0xb7acf6ddc4710fe9!2z0YPQuy4g0JzQtdC00LXRgyAzNywg0KLQsNC70LTRi9C60L7RgNCz0LDQvQ!5e0!3m2!1sru!2skz!4v1650140658419!5m2!1sru!2skz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A88f3b9af871452b6c04ad66e49b6471bc703f055cdcc00f2e2661f0d24f89ad4&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
 			</div>
 			<div class="clear"></div>
 		</div>
