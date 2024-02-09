@@ -40,12 +40,13 @@ if($url == 'product') {
         <meta name="description" content="<?=$descr?>">
 		<link rel="stylesheet" href="/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="/css/site.css?v=1.4">
+		<link rel="stylesheet" href="/css/site.css?v=1.5">
 		<link rel="stylesheet" href="/css/media.css?v=1.5">
 		<link rel="canonical" href="<?=$urlfull?>" />
 		<title><?=$title?></title>
 	</head>
 	<body>
+        <a href="https://wa.me/77750327703" class="mob-whp" target="_blank"><img src="/img/whp1.png" class="whp1"></a>
 		<div class="header">
 			<div class="container">
 				<a href="/">
