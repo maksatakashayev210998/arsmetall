@@ -46,7 +46,7 @@ if($url == 'product') {
 		<title><?=$title?></title>
 	</head>
 	<body>
-        <a href="https://wa.me/77750327703" class="mob-whp" target="_blank"><img src="/img/whp1.png" class="whp1"></a>
+        <a href="https://wa.me/77781013012" class="mob-whp" target="_blank"><img src="/img/whp1.png" class="whp1"></a>
 		<div class="header">
 			<div class="container">
 				<a href="/">
