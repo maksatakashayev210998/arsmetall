@@ -4,7 +4,7 @@ $message = $_POST['message'];
 $message = str_replace(" ", "%20", $message);
 $message = str_replace(PHP_EOL, '%20', $message);
 
-$url = 'https://wa.me/77781013012?text='.$text.$message;
+$url = 'https://wa.me/77083928101?text='.$text.$message;
 
 header('Location: '.$url);
 ?>

@@ -44,9 +44,20 @@ if($url == 'product') {
 		<link rel="stylesheet" href="/css/media.css?v=1.5">
 		<link rel="canonical" href="<?=$urlfull?>" />
 		<title><?=$title?></title>
+		<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N9VQ2KGM');</script>
+<!-- End Google Tag Manager -->
 	</head>
 	<body>
-        <a href="https://wa.me/77781013012" class="mob-whp" target="_blank"><img src="/img/whp1.png" class="whp1"></a>
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9VQ2KGM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <a href="https://wa.me/77053700073" class="mob-whp" target="_blank"><img src="/img/whp1.png" class="whp1"></a>
 		<div class="header">
 			<div class="container">
 				<a href="/">

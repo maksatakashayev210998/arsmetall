@@ -20,8 +20,7 @@ $result3 = $conn->query($sql);
 				</div>
 				<div class="redrgpart2">
 					<h4 class="redphones">
-						<a class="telnumcall" href="tel:+77084273365">+7 708 427 33 65</a> <br>	
-						<a class="telnumcall" href="tel:+77781013012">+7 778 101 30 12</a> 
+						<a class="telnumcall" href="tel:+77053700073">+7 705 370 00 73</a>
 					</h4>
 				</div>
 				<div class="clear"></div>
